@@ -6,7 +6,7 @@
   margin: 0 auto;
   justify-content: space-between;
 }
-.img___active--card {
+.img__active--card {
   color: var(--main-font-color);
   font-weight: 400;
   font-size: 18px;
@@ -20,7 +20,6 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: transform, background-color, color;
   display: flex;
-  transform: translate(0, 0);
   top: 0;
   &::after {
     position: absolute;
